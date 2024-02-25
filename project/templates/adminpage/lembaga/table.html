@@ -1,0 +1,93 @@
+{% extends 'adminpage/layout/base.html' %}
+{% load adminpage_tags %}
+
+{% block content %}
+
+<div class="container-fluid">
+  <div class="row page-titles mx-0">
+
+      <div class="col-sm-6 p-md-0">
+          <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="javascript:void(0)">Lembaga</a></li>
+              <li class="breadcrumb-item active"><a href="javascript:void(0)">Daftar</a></li>
+          </ol>
+      </div>
+  </div>
+  <!-- row -->
+
+
+  <div class="row">
+      <div class="col-12">
+          <div class="card">
+              <div class="card-header">
+                  <h4 class="card-title">Daftar Lembaga</h4>
+                  <a href="{% url 'pendampingan:admin_lembaga_sinkron' %}" class="btn btn-success btn-rounded">
+                    <i class="fa fa-refresh"></i> Sinkron
+                  </a>
+                  <!-- <button type="button" class="btn btn-primary">Sinkron</button> -->
+              </div>
+              <div class="card-body">
+                  <div class="table-responsive">
+                      <table id="datatable" class="display" style="min-width: 845px">
+                          <thead>
+                              <tr>
+                                  <th>Nomor</th>
+                                  <th>Uniid</th>
+                                  <th>Nama</th>
+                                  <th>Super Unit</th>
+                                  <th>Jenis</th>                                  
+                              </tr>
+                          </thead>
+                          <tbody class="text-dark">
+                            {% for data in datalembaga %}                            
+                              <tr>
+                                  <td>{{forloop.counter}}</td>
+                                  <td>{{data.uniid}}</td>
+                                  <td>{{data.nama}} - ({{data.namasingkat}})</td>
+                                  <td>{{data.namasuper}}</td>
+                                  <td>{{data.jenis}}</td>                                  
+                              </tr>
+                            {% endfor %}
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+{% endblock %}
+
+
+{% block javascript %}
+
+<script>
+(function($) {
+    "use strict"
+    //example 1
+    var table = $('#datatable').DataTable({
+        createdRow: function ( row, data, index ) {
+           $(row).addClass('selected')
+        } 
+    });
+      
+    table.on('click', 'tbody tr', function() {
+    var $row = table.row(this).nodes().to$();
+    var hasClass = $row.hasClass('selected');
+    if (hasClass) {
+        $row.removeClass('selected')
+    } else {
+        $row.addClass('selected')
+    }
+    })
+    
+    table.rows().every(function() {
+    this.nodes().to$().removeClass('selected')
+    });
+      
+})(jQuery);  
+
+</script>
+
+{% endblock %}

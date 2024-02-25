@@ -1,0 +1,53 @@
+{% load static %}
+{% load crispy_forms_tags %}
+
+<head>
+    {% include 'adminpage/layout/head.html' %}
+    {% block head %}{% endblock %}
+</head>
+
+<body class="h-100">
+    <div class="authincation h-100">
+        <div class="container-fluid h-100">
+            <div class="row justify-content-center h-100 align-items-center">
+                <div class="col-md-6">
+                    <div class="authincation-content">
+                        <div class="row no-gutters">
+                            <div class="col-xl-12">
+                                <div class="auth-form">
+                                    <h4 class="text-center mb-4">Login SIPAMIK</h4>
+                                    <form action="" method="post">
+                                        {% csrf_token %}
+                                        
+                                        {{formsignin|crispy}}
+                                        
+                                        <div class="text-center">
+                                            <button type="submit" class="btn btn-primary btn-block btn-rounded">Login</button>
+                                            <p class="m-3">atau</p>   
+                                            <a href="{% url 'cas_ng_login' %}" class="btn btn-secondary btn-block p-3 btn-rounded">Login CAS</a>
+                                        </div>
+                                    </form>                                                                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->        
+    {% include 'adminpage/layout/javascript.html' %}
+
+    
+    {% block javascript %}
+
+    {% endblock %}        
+
+</body>
+
+</html>

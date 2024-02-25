@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    {% include 'adminpage/layout/head.html' %}
+    {% block head %}{% endblock %}
+  </head>
+
+  <body>
+  
+    <!--*******************
+    Preloader start
+    ********************-->
+    <div id="preloader">
+      <div class="sk-three-bounce">
+          <div class="sk-child sk-bounce1"></div>
+          <div class="sk-child sk-bounce2"></div>
+          <div class="sk-child sk-bounce3"></div>
+      </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->    
+
+    <div id="main-wrapper">      
+
+      {% include 'adminpage/layout/navbar.html' %}
+      
+      {% include 'adminpage/layout/sidebar.html' %}
+        
+      <!--**********************************
+          Content body start
+      ***********************************-->
+      <div class="content-body">      
+
+        {% block content %}{% endblock %}
+      
+      </div>  
+      <!--**********************************
+          Content body end
+      ***********************************-->      
+
+      
+
+      {% include 'adminpage/layout/footer.html' %}
+      
+    </div>
+    
+    
+    {% include 'adminpage/layout/javascript.html' %}
+
+    
+    {% block javascript %}{% endblock %}
+  </body>
+
+</html>

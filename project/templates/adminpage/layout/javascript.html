@@ -1,0 +1,97 @@
+{% load static %}
+{% load adminpage_tags %}
+
+<!--**********************************
+    Scripts
+***********************************-->
+<!-- Required vendors -->
+<script src="{% static 'focus-2/vendor/global/global.min.js' %}"></script>
+<script src="{% static 'focus-2/js/quixnav-init.js' %}"></script>
+<script src="{% static 'focus-2/js/custom.min.js' %}"></script>
+
+
+<!-- Vectormap -->
+<script src="{% static 'focus-2/vendor/raphael/raphael.min.js' %}"></script>
+<script src="{% static 'focus-2/vendor/morris/morris.min.js' %}"></script>
+
+
+<script src="{% static 'focus-2/vendor/circle-progress/circle-progress.min.js' %}"></script>
+<script src="{% static 'focus-2/vendor/chart.js/Chart.bundle.min.js' %}"></script>
+
+<script src="{% static 'focus-2/vendor/gaugeJS/dist/gauge.min.js' %}"></script>
+
+<!--  flot-chart js -->
+<script src="{% static 'focus-2/vendor/flot/jquery.flot.js' %}"></script>
+<script src="{% static 'focus-2/vendor/flot/jquery.flot.resize.js' %}"></script>
+
+<!-- Owl Carousel -->
+<script src="{% static 'focus-2/vendor/owl-carousel/js/owl.carousel.min.js' %}"></script>
+
+<!-- Counter Up -->
+<script src="{% static 'focus-2/vendor/jqvmap/js/jquery.vmap.min.js' %}"></script>
+<script src="{% static 'focus-2/vendor/jqvmap/js/jquery.vmap.usa.js' %}"></script>
+<script src="{% static 'focus-2/vendor/jquery.counterup/jquery.counterup.min.js' %}"></script>
+
+
+{% comment %} <script src="{% static 'focus-2/js/dashboard/dashboard-1.js' %}"></script> {% endcomment %}
+
+<!-- Datatable -->
+<script src="{% static 'focus-2/vendor/datatables/js/jquery.dataTables.min.js' %}"></script>
+<script src="{% static 'focus-2/js/plugins-init/datatables.init.js' %}"></script>
+
+<script src="{% static 'focus-2/vendor/sweetalert2/dist/sweetalert2.all.js' %}"></script>
+
+<script>
+    function notif(status, title, message, data=[]){
+        let redirect;
+        let confbtntxt='Check Data';
+        let cnclbtntxt='Cancel';
+
+        if (data){
+          if (data['redirect']){
+            redirect = data['redirect']
+          }
+
+          if (data['confbtntxt']){
+            confbtntxt = data['confbtntxt']
+          }
+
+          if (data['cnclbtntxt']){
+            cnclbtntxt = data['cnclbtntxt']
+          }
+
+          if (data['title']){
+            title = data['title']
+          }
+        }
+
+        if (status && title && message) {
+            if (!redirect || redirect == null || redirect == 'None') {
+                Swal.fire({
+                    icon: status,
+                    title: title,
+                    html: message
+                })
+            } else {
+                Swal.fire({
+                    icon: status,
+                    title: title,
+                    html: message,
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: confbtntxt,
+                    cancelButtonText: cnclbtntxt
+                }).then((result) => {
+                    if (result.value) {
+                        window.location.replace(redirect);
+                    }
+                });
+            }
+        }
+    }
+
+    {% for msg in messages %}
+        notif('{{ msg.level_tag }}', '{{ msg.level_tag }}', '{{ msg|safe }}', JSON.parse('{{ msg.extra_tags|JsonParseIsEmpty|safe }}'))
+    {% endfor %}
+</script>

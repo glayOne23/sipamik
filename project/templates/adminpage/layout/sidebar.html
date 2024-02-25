@@ -1,0 +1,61 @@
+{% load static %}
+
+<!--**********************************
+    Sidebar start
+***********************************-->
+<div class="quixnav">
+    <div class="quixnav-scroll">
+        <ul class="metismenu" id="menu">
+
+            <!-- 1 -->
+            <li class="nav-label first">Menu Utama</li>
+            <!-- Dashboard -->
+            <li class="{% if sidebar == 'dashboard' %} mm-active {% endif %}">
+                <a href="{% url 'dashboard' %}">
+                    <i class="icon icon-single-04"></i><span class="nav-text">Dashboard</span>
+                </a>                
+            </li>
+
+            <!-- 2 -->
+            <li class="nav-label">Mahasiswa</li>
+            <!-- Dashboard -->
+            <li class="">
+                <a href="">
+                    <i class="icon icon-single-04"></i><span class="nav-text">Dashboard</span>
+                </a>                
+            </li>
+
+
+            <!-- 3 -->
+            <li class="nav-label first">Dosen</li>
+            <!-- Dashboard -->
+            <li class="">
+                <a href="">
+                    <i class="icon icon-single-04"></i><span class="nav-text">Dashboard</span>
+                </a>                
+            </li>
+
+            <!-- 4 -->
+            <li class="nav-label first">Admin</li>
+            <!-- Lembaga -->
+            <li class="{% if sidebar == 'admin.lembaga' %} mm-active {% endif %}">
+                <a href="{% url 'pendampingan:admin_lembaga_table' %}">
+                    <i class="fa fa-sitemap"></i> <span class="nav-text">Lembaga</span>
+                </a>                
+            </li>            
+            <!-- Karyawan -->
+            <li class="{% if sidebar == 'admin.karyawan' %} mm-active {% endif %}">
+                <a href="{% url 'pendampingan:admin_karyawan_table' %}">
+                    <i class="fa fa-users"></i> <span class="nav-text">Karyawan</span>
+                </a>                
+            </li>                        
+
+
+        </ul>
+    </div>
+
+
+</div>
+<!--**********************************
+    Sidebar end
+***********************************-->
