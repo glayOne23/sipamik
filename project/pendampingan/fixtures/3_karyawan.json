@@ -1,0 +1,1514 @@
+[
+{
+    "model": "pendampingan.karyawan",
+    "pk": 1,
+    "fields": {
+        "user": 3,
+        "is_active": true,
+        "namalengkap": "Anisa Catur Wijayanti",
+        "namabergelar": "Anisa Catur Wijayanti, S.KM., M.Epid",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.369Z",
+        "updated_at": "2024-02-25T15:26:23.077Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 2,
+    "fields": {
+        "user": 4,
+        "is_active": true,
+        "namalengkap": "Djariyanto",
+        "namabergelar": "Djariyanto, SKM",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.380Z",
+        "updated_at": "2024-02-25T15:26:23.557Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 3,
+    "fields": {
+        "user": 5,
+        "is_active": true,
+        "namalengkap": "Dwi Astuti",
+        "namabergelar": "Dwi Astuti, M.Kes, S.KM.",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.389Z",
+        "updated_at": "2024-02-25T15:23:03.725Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 4,
+    "fields": {
+        "user": 6,
+        "is_active": true,
+        "namalengkap": "Dwi Linna Suswardany",
+        "namabergelar": "Dwi Linna Suswardany, SKM., MPH",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.400Z",
+        "updated_at": "2024-02-25T15:23:08.362Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 5,
+    "fields": {
+        "user": 7,
+        "is_active": true,
+        "namalengkap": "Kusuma Estu Werdani",
+        "namabergelar": "Kusuma Estu Werdani, S.KM., M.Kes",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.410Z",
+        "updated_at": "2024-02-25T15:23:09.611Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 6,
+    "fields": {
+        "user": 8,
+        "is_active": true,
+        "namalengkap": "Noor Alis Setiyadi",
+        "namabergelar": "Noor Alis Setiyadi, S.KM., M.K.M, Ph.D",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.420Z",
+        "updated_at": "2024-02-25T15:23:10.129Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 7,
+    "fields": {
+        "user": 9,
+        "is_active": true,
+        "namalengkap": "Sri Darnoto",
+        "namabergelar": "Sri Darnoto, S.KM., M.P.H",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.431Z",
+        "updated_at": "2024-02-25T15:07:02.891Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 8,
+    "fields": {
+        "user": 10,
+        "is_active": true,
+        "namalengkap": "Tanjung Anitasari Indah Kusumaningrum",
+        "namabergelar": "Tanjung Anitasari Indah Kusumaningrum, S.K.M., M.Kes.",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.441Z",
+        "updated_at": "2024-02-25T15:07:02.898Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 9,
+    "fields": {
+        "user": 11,
+        "is_active": true,
+        "namalengkap": "Windi Wulandari",
+        "namabergelar": "Windi Wulandari, SKM, M.P.H",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.444Z",
+        "updated_at": "2024-02-25T15:07:02.913Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 10,
+    "fields": {
+        "user": 12,
+        "is_active": true,
+        "namalengkap": "Yuli Kusumawati",
+        "namabergelar": "Dr. Yuli Kusumawati, SKM., M.Kes",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.447Z",
+        "updated_at": "2024-02-25T15:07:02.915Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 11,
+    "fields": {
+        "user": 13,
+        "is_active": true,
+        "namalengkap": "Rezania Asyfiradayati",
+        "namabergelar": "Rezania Asyfiradayati, SKM, M.P.H",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.449Z",
+        "updated_at": "2024-02-25T15:07:02.919Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 12,
+    "fields": {
+        "user": 14,
+        "is_active": true,
+        "namalengkap": "Mitoriana Porusia",
+        "namabergelar": "Mitoriana Porusia, S.K.M., M.Sc.",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.451Z",
+        "updated_at": "2024-02-25T15:07:02.924Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 13,
+    "fields": {
+        "user": 15,
+        "is_active": true,
+        "namalengkap": "Izzatul Arifah",
+        "namabergelar": "Izzatul Arifah, S.K.M., M.P.H.",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.454Z",
+        "updated_at": "2024-02-25T15:07:02.933Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 14,
+    "fields": {
+        "user": 16,
+        "is_active": true,
+        "namalengkap": "Aditya Nanda Priyatama",
+        "namabergelar": "Aditya Nanda Priyatama, Dr.",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.456Z",
+        "updated_at": "2024-02-25T15:07:02.947Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 15,
+    "fields": {
+        "user": 17,
+        "is_active": true,
+        "namalengkap": "Sri Sugiarsi",
+        "namabergelar": "Sri Sugiarsi, SKM, M.Kes",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.459Z",
+        "updated_at": "2024-02-25T15:07:02.988Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 16,
+    "fields": {
+        "user": 18,
+        "is_active": true,
+        "namalengkap": "Miftahul Arozaq",
+        "namabergelar": "Miftahul Arozaq, S.Si, M.Pd.",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.461Z",
+        "updated_at": "2024-02-25T15:07:02.990Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 17,
+    "fields": {
+        "user": 19,
+        "is_active": true,
+        "namalengkap": "Bejo Raharjo",
+        "namabergelar": "Bejo Raharjo, SKM, M.Kes",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.463Z",
+        "updated_at": "2024-02-25T15:07:02.992Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 18,
+    "fields": {
+        "user": 20,
+        "is_active": true,
+        "namalengkap": "Muhammad Iqbal Masruri",
+        "namabergelar": "Muhammad Iqbal Masruri, SKM, M.Kes",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.465Z",
+        "updated_at": "2024-02-25T15:07:02.995Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 19,
+    "fields": {
+        "user": 21,
+        "is_active": true,
+        "namalengkap": "Zaenal Abidin",
+        "namabergelar": "Zaenal Abidin, SKM, M.Kes",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.468Z",
+        "updated_at": "2024-02-25T15:07:02.997Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 20,
+    "fields": {
+        "user": 22,
+        "is_active": true,
+        "namalengkap": "Haryono",
+        "namabergelar": "drh.. Haryono, M.Si.",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.470Z",
+        "updated_at": "2024-02-25T15:07:02.999Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 21,
+    "fields": {
+        "user": 23,
+        "is_active": true,
+        "namalengkap": "Dzul Akmal",
+        "namabergelar": "Dzul Akmal, SKM, M.Kes",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.472Z",
+        "updated_at": "2024-02-25T15:07:03.004Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 22,
+    "fields": {
+        "user": 24,
+        "is_active": true,
+        "namalengkap": "Heru Subaris Kasjono",
+        "namabergelar": "Heru Subaris Kasjono, SKM, M.Kes, Dr.",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.475Z",
+        "updated_at": "2024-02-25T15:23:22.472Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 23,
+    "fields": {
+        "user": 25,
+        "is_active": true,
+        "namalengkap": "Tarwaka",
+        "namabergelar": "Tarwaka, PGDip.Sc., M.Erg.",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.477Z",
+        "updated_at": "2024-02-25T15:23:22.946Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 24,
+    "fields": {
+        "user": 26,
+        "is_active": true,
+        "namalengkap": "Badar Kirwono",
+        "namabergelar": "Badar Kirwono, SKM, M.Kes",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.479Z",
+        "updated_at": "2024-02-25T15:23:17.795Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 25,
+    "fields": {
+        "user": 27,
+        "is_active": true,
+        "namalengkap": "Arief Kurniawan Nur Prasetyo",
+        "namabergelar": "Arief Kurniawan Nur Prasetyo, SKM, M.PH",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.483Z",
+        "updated_at": "2024-02-25T15:23:23.522Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 26,
+    "fields": {
+        "user": 28,
+        "is_active": true,
+        "namalengkap": "Purwanti ",
+        "namabergelar": "Purwanti , SKM, M.Kes.",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.486Z",
+        "updated_at": "2024-02-25T15:23:24.219Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 27,
+    "fields": {
+        "user": 29,
+        "is_active": true,
+        "namalengkap": "Anggi Putri Aria Gita",
+        "namabergelar": "Anggi Putri Aria Gita, M.K.N",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.488Z",
+        "updated_at": "2024-02-25T15:06:58.815Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 28,
+    "fields": {
+        "user": 30,
+        "is_active": true,
+        "namalengkap": "Eka Yunila Fatmasari",
+        "namabergelar": "Eka Yunila Fatmasari, SKM, M.Kes",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.490Z",
+        "updated_at": "2024-02-25T15:06:58.824Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 29,
+    "fields": {
+        "user": 31,
+        "is_active": true,
+        "namalengkap": "Ayu Khoirotul Umaroh",
+        "namabergelar": "Ayu Khoirotul Umaroh, S.KM., M.K.M",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.493Z",
+        "updated_at": "2024-02-25T15:06:58.832Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 30,
+    "fields": {
+        "user": 32,
+        "is_active": true,
+        "namalengkap": "Mahendro Kusumo",
+        "namabergelar": "Mahendro Kusumo, dr., MMR, Dr.",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.495Z",
+        "updated_at": "2024-02-25T15:06:58.840Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 31,
+    "fields": {
+        "user": 33,
+        "is_active": true,
+        "namalengkap": "Ervansyah Wahyu Utomo",
+        "namabergelar": "Ervansyah Wahyu Utomo, S.St, M.Kes",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.497Z",
+        "updated_at": "2024-02-25T15:06:58.844Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 32,
+    "fields": {
+        "user": 34,
+        "is_active": true,
+        "namalengkap": "Sri Indra Kurnia",
+        "namabergelar": "Sri Indra Kurnia, S.KM., MPH.",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.499Z",
+        "updated_at": "2024-02-25T15:06:58.847Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 33,
+    "fields": {
+        "user": 35,
+        "is_active": true,
+        "namalengkap": "Yeni Indriyani",
+        "namabergelar": "Yeni Indriyani, S.KM., M.PH.",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.501Z",
+        "updated_at": "2024-02-25T15:06:58.853Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 34,
+    "fields": {
+        "user": 36,
+        "is_active": true,
+        "namalengkap": "Salsabila Purnamasari",
+        "namabergelar": "Salsabila Purnamasari, S.KM., M.P.H.",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.503Z",
+        "updated_at": "2024-02-25T15:06:58.867Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 35,
+    "fields": {
+        "user": 37,
+        "is_active": true,
+        "namalengkap": "Denny Saptono Fahrurodzi",
+        "namabergelar": "Denny Saptono Fahrurodzi, S.K M., M.Sc.",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.505Z",
+        "updated_at": "2024-02-25T15:06:58.873Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 36,
+    "fields": {
+        "user": 38,
+        "is_active": true,
+        "namalengkap": "Sheena Ramadhia Asmara Dhani",
+        "namabergelar": "Sheena Ramadhia Asmara Dhani, S.KM., M.KKK.",
+        "homebase_uniid": "lmbg1005",
+        "namahomebase": "Program Studi Kesehatan Masyarakat",
+        "created_at": "2024-02-25T12:06:41.508Z",
+        "updated_at": "2024-02-25T15:06:58.881Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 37,
+    "fields": {
+        "user": 39,
+        "is_active": true,
+        "namalengkap": "Kartinah ",
+        "namabergelar": "Kartinah , S.Kep., M.P.H.",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:43.978Z",
+        "updated_at": "2024-02-25T15:07:02.858Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 38,
+    "fields": {
+        "user": 40,
+        "is_active": true,
+        "namalengkap": "Vinami Yulian",
+        "namabergelar": "Vinami Yulian, S.Kep., M.Sc, Ners., Ph.D",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:43.993Z",
+        "updated_at": "2024-02-25T15:07:02.904Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 39,
+    "fields": {
+        "user": 41,
+        "is_active": true,
+        "namalengkap": "A. Muhlisin",
+        "namabergelar": "A. Muhlisin, SKM., M.Kep",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:45.287Z",
+        "updated_at": "2024-02-25T15:07:02.725Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 40,
+    "fields": {
+        "user": 42,
+        "is_active": true,
+        "namalengkap": "Aan Sofyan",
+        "namabergelar": "Aan Sofyan, S.Pt., M.Pd",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.302Z",
+        "updated_at": "2024-02-25T15:07:02.740Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 41,
+    "fields": {
+        "user": 43,
+        "is_active": true,
+        "namalengkap": "Agus Sudaryanto",
+        "namabergelar": "Agus Sudaryanto, S.Kp, M.Kes, Ners",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:45.317Z",
+        "updated_at": "2024-02-25T15:07:02.754Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 42,
+    "fields": {
+        "user": 44,
+        "is_active": true,
+        "namalengkap": "Agus Widodo",
+        "namabergelar": "Agus Widodo, SSt., S.K.M, M.Fis",
+        "homebase_uniid": "lmbg1060",
+        "namahomebase": "Program Studi Fisioterapi",
+        "created_at": "2024-02-25T12:06:45.325Z",
+        "updated_at": "2024-02-25T15:07:02.769Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 43,
+    "fields": {
+        "user": 45,
+        "is_active": true,
+        "namalengkap": "Andry Ariyanto",
+        "namabergelar": "Andry Ariyanto, SSTFT",
+        "homebase_uniid": "lmbg1060",
+        "namahomebase": "Program Studi Fisioterapi",
+        "created_at": "2024-02-25T12:06:45.330Z",
+        "updated_at": "2024-02-25T15:07:02.783Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 44,
+    "fields": {
+        "user": 46,
+        "is_active": true,
+        "namalengkap": "Arif Pristianto",
+        "namabergelar": "Arif Pristianto, SSt.FT., M.Fis.",
+        "homebase_uniid": "lmbg1060",
+        "namahomebase": "Program Studi Fisioterapi",
+        "created_at": "2024-02-25T12:06:45.336Z",
+        "updated_at": "2024-02-25T15:07:02.803Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 45,
+    "fields": {
+        "user": 47,
+        "is_active": true,
+        "namalengkap": "Arif Widodo",
+        "namabergelar": "Dr. Arif Widodo, S.St., M.Kes",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:45.339Z",
+        "updated_at": "2024-02-25T15:07:02.809Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 46,
+    "fields": {
+        "user": 48,
+        "is_active": true,
+        "namalengkap": "Arina Maliya",
+        "namabergelar": "Arina Maliya, A.Kep., M.Si.Med",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:45.341Z",
+        "updated_at": "2024-02-25T15:07:02.813Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 47,
+    "fields": {
+        "user": 49,
+        "is_active": true,
+        "namalengkap": "Arum Pratiwi",
+        "namabergelar": "Arum Pratiwi, S.Kp, M.Kes, Ph.D",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:45.343Z",
+        "updated_at": "2024-02-25T15:07:02.816Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 48,
+    "fields": {
+        "user": 50,
+        "is_active": true,
+        "namalengkap": "Dwi Rosella Komala Sari",
+        "namabergelar": "Dwi Rosella Komala Sari, S.Fis, M.Fis, ., Ph.D",
+        "homebase_uniid": "lmbg1060",
+        "namahomebase": "Program Studi Fisioterapi",
+        "created_at": "2024-02-25T12:06:45.354Z",
+        "updated_at": "2024-02-25T15:07:02.828Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 49,
+    "fields": {
+        "user": 51,
+        "is_active": true,
+        "namalengkap": "Dwi Sarbini",
+        "namabergelar": "Dr. Dwi Sarbini, SST., M.Kes",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.356Z",
+        "updated_at": "2024-02-25T15:07:02.830Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 50,
+    "fields": {
+        "user": 52,
+        "is_active": true,
+        "namalengkap": "Dyah Intan Puspitasari",
+        "namabergelar": "Dyah Intan Puspitasari, S.Gz., M.Nutr",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.358Z",
+        "updated_at": "2024-02-25T15:07:02.832Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 51,
+    "fields": {
+        "user": 53,
+        "is_active": true,
+        "namalengkap": "Endang Nur Widiyaningsih",
+        "namabergelar": "Endang Nur Widiyaningsih, SST., M.Si.Med.",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.360Z",
+        "updated_at": "2024-02-25T15:07:02.835Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 52,
+    "fields": {
+        "user": 54,
+        "is_active": true,
+        "namalengkap": "Eni Purwani",
+        "namabergelar": "Eni Purwani, S.Si., M.Si",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.363Z",
+        "updated_at": "2024-02-25T15:07:02.837Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 53,
+    "fields": {
+        "user": 55,
+        "is_active": true,
+        "namalengkap": "Enita Dewi",
+        "namabergelar": "Enita Dewi, S.Kep., Ns, MN",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:45.365Z",
+        "updated_at": "2024-02-25T15:07:02.839Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 54,
+    "fields": {
+        "user": 56,
+        "is_active": true,
+        "namalengkap": "Fahrun Nur Rosyid",
+        "namabergelar": "Dr. Fahrun Nur Rosyid, S.Kep., M.Kes, Ns",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:45.367Z",
+        "updated_at": "2024-02-25T15:07:02.841Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 55,
+    "fields": {
+        "user": 57,
+        "is_active": true,
+        "namalengkap": "Faizah Betty Rahayuningsih",
+        "namabergelar": "Dr. Faizah Betty Rahayuningsih, S.Kep, M.Kes",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:45.369Z",
+        "updated_at": "2024-02-25T15:07:02.843Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 56,
+    "fields": {
+        "user": 58,
+        "is_active": true,
+        "namalengkap": "Farida Nur Isnaeni",
+        "namabergelar": "Farida Nur Isnaeni, S.Gz., M.Sc",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.372Z",
+        "updated_at": "2024-02-25T15:07:02.845Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 57,
+    "fields": {
+        "user": 59,
+        "is_active": true,
+        "namalengkap": "Fitriana Mustikaningrum",
+        "namabergelar": "Fitriana Mustikaningrum, S.Gz., M.Sc., Ph.D",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.375Z",
+        "updated_at": "2024-02-25T15:07:02.849Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 58,
+    "fields": {
+        "user": 60,
+        "is_active": true,
+        "namalengkap": "Irdawati",
+        "namabergelar": "Irdawati , A.Kep., S.Kep., M.Si.Med",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:45.378Z",
+        "updated_at": "2024-02-25T15:07:02.854Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 59,
+    "fields": {
+        "user": 61,
+        "is_active": true,
+        "namalengkap": "Isnaini Herawati",
+        "namabergelar": "Isnaini Herawati, SST., M.Kes",
+        "homebase_uniid": "lmbg1060",
+        "namahomebase": "Program Studi Fisioterapi",
+        "created_at": "2024-02-25T12:06:45.381Z",
+        "updated_at": "2024-02-25T15:07:02.856Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 60,
+    "fields": {
+        "user": 62,
+        "is_active": true,
+        "namalengkap": "Listiana Dharmawati Suryaningrum",
+        "namabergelar": "dr. Listiana Dharmawati Suryaningrum, M.Si",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.388Z",
+        "updated_at": "2024-02-25T15:07:02.863Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 61,
+    "fields": {
+        "user": 63,
+        "is_active": true,
+        "namalengkap": "Listiyani Hidayati",
+        "namabergelar": "Ir. Listiyani Hidayati, M.Kes",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.390Z",
+        "updated_at": "2024-02-25T15:07:02.865Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 62,
+    "fields": {
+        "user": 64,
+        "is_active": true,
+        "namalengkap": "Luluk Ria Rakhma",
+        "namabergelar": "Luluk Ria Rakhma, S.Gz, M.Gizi",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.392Z",
+        "updated_at": "2024-02-25T15:07:02.867Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 63,
+    "fields": {
+        "user": 65,
+        "is_active": true,
+        "namalengkap": "Mutalazimah",
+        "namabergelar": "Prof. Dr. Mutalazimah, S.KM., M.Kes.",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.394Z",
+        "updated_at": "2024-02-25T15:07:02.869Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 64,
+    "fields": {
+        "user": 66,
+        "is_active": true,
+        "namalengkap": "Muwakhidah",
+        "namabergelar": "Muwakhidah, SKM, M.Kes Epid",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.396Z",
+        "updated_at": "2024-02-25T15:07:02.872Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 65,
+    "fields": {
+        "user": 67,
+        "is_active": true,
+        "namalengkap": "Nur Lathifah Mardiyati",
+        "namabergelar": "Nur Lathifah Mardiyati, S.Gz., M.S",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.401Z",
+        "updated_at": "2024-02-25T15:07:02.876Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 66,
+    "fields": {
+        "user": 68,
+        "is_active": true,
+        "namalengkap": "Okti Sri Purwanti",
+        "namabergelar": "Okti Sri Purwanti, S.Kep, Ns, M.Kep, Sp.Kep.M.B",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:45.403Z",
+        "updated_at": "2024-02-25T15:07:02.880Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 67,
+    "fields": {
+        "user": 69,
+        "is_active": true,
+        "namalengkap": "Pramudya Kurnia",
+        "namabergelar": "Pramudya Kurnia, STP., M.Agr",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.406Z",
+        "updated_at": "2024-02-25T15:07:02.882Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 68,
+    "fields": {
+        "user": 70,
+        "is_active": true,
+        "namalengkap": "Setyaningrum Rahmawaty",
+        "namabergelar": "Setyaningrum Rahmawaty, M.Kes, Ph.D",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.408Z",
+        "updated_at": "2024-02-25T15:07:02.885Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 69,
+    "fields": {
+        "user": 71,
+        "is_active": true,
+        "namalengkap": "Siti Arifah",
+        "namabergelar": "Siti Arifah, S.Kp., M.Kes",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:45.411Z",
+        "updated_at": "2024-02-25T15:07:02.887Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 70,
+    "fields": {
+        "user": 72,
+        "is_active": true,
+        "namalengkap": "Siti Zulaekah",
+        "namabergelar": "Siti Zulaekah, A, M.Si",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.413Z",
+        "updated_at": "2024-02-25T15:07:02.889Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 71,
+    "fields": {
+        "user": 73,
+        "is_active": true,
+        "namalengkap": "Sulastri",
+        "namabergelar": "Sulastri, S.Kp., M.Kes",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:45.417Z",
+        "updated_at": "2024-02-25T15:07:02.894Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 72,
+    "fields": {
+        "user": 74,
+        "is_active": true,
+        "namalengkap": "Supratman",
+        "namabergelar": "Supratman, S.K.M., M.Kes., Ph.D",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:45.420Z",
+        "updated_at": "2024-02-25T15:07:02.896Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 73,
+    "fields": {
+        "user": 75,
+        "is_active": true,
+        "namalengkap": "Totok Budi Santoso",
+        "namabergelar": "Totok Budi Santoso, SST., MPH",
+        "homebase_uniid": "lmbg1060",
+        "namahomebase": "Program Studi Fisioterapi",
+        "created_at": "2024-02-25T12:06:45.424Z",
+        "updated_at": "2024-02-25T15:07:02.900Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 74,
+    "fields": {
+        "user": 76,
+        "is_active": true,
+        "namalengkap": "Umi Budi Rahayu",
+        "namabergelar": "Dr. Umi Budi Rahayu, SSTFT., M.Kes",
+        "homebase_uniid": "lmbg1060",
+        "namahomebase": "Program Studi Fisioterapi",
+        "created_at": "2024-02-25T12:06:45.426Z",
+        "updated_at": "2024-02-25T15:07:02.902Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 75,
+    "fields": {
+        "user": 77,
+        "is_active": true,
+        "namalengkap": "Wahyuni",
+        "namabergelar": "Wahyuni , SKM., M.Kes",
+        "homebase_uniid": "lmbg1060",
+        "namahomebase": "Program Studi Fisioterapi",
+        "created_at": "2024-02-25T12:06:45.430Z",
+        "updated_at": "2024-02-25T15:07:02.907Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 76,
+    "fields": {
+        "user": 78,
+        "is_active": true,
+        "namalengkap": "Wijianto",
+        "namabergelar": "Wijianto, S.St., M.Or",
+        "homebase_uniid": "lmbg1060",
+        "namahomebase": "Program Studi Fisioterapi",
+        "created_at": "2024-02-25T12:06:45.432Z",
+        "updated_at": "2024-02-25T15:07:02.909Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 77,
+    "fields": {
+        "user": 79,
+        "is_active": true,
+        "namalengkap": "Winarsih Nur Ambarwati",
+        "namabergelar": "Winarsih Nur Ambarwati, S.Kep., M.Kep, Ns",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:45.435Z",
+        "updated_at": "2024-02-25T15:07:02.911Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 78,
+    "fields": {
+        "user": 80,
+        "is_active": true,
+        "namalengkap": "Yuni Wulan Utami",
+        "namabergelar": "Yuni Wulan Utami, S.Kep., M.Kes",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:45.446Z",
+        "updated_at": "2024-02-25T15:07:02.917Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 79,
+    "fields": {
+        "user": 81,
+        "is_active": true,
+        "namalengkap": "Farid Rahman",
+        "namabergelar": "Farid Rahman, SSt.FT., M.Or",
+        "homebase_uniid": "lmbg1060",
+        "namahomebase": "Program Studi Fisioterapi",
+        "created_at": "2024-02-25T12:06:45.451Z",
+        "updated_at": "2024-02-25T15:07:02.921Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 80,
+    "fields": {
+        "user": 82,
+        "is_active": true,
+        "namalengkap": "Wachidah Yuniartika",
+        "namabergelar": "Wachidah Yuniartika, S.Kep., Ns, M.Kep., Sp. Kep. K",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:45.456Z",
+        "updated_at": "2024-02-25T15:07:02.926Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 81,
+    "fields": {
+        "user": 83,
+        "is_active": true,
+        "namalengkap": "Dian Hudiyawati",
+        "namabergelar": "Ns. Dian Hudiyawati, S.Kep., M.Kep., Sp.Kep.M.B",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:45.458Z",
+        "updated_at": "2024-02-25T15:07:02.929Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 82,
+    "fields": {
+        "user": 84,
+        "is_active": true,
+        "namalengkap": "Arin Supriyadi",
+        "namabergelar": "Arin Supriyadi, SS.T.Ft., M.Fis",
+        "homebase_uniid": "lmbg1060",
+        "namahomebase": "Program Studi Fisioterapi",
+        "created_at": "2024-02-25T12:06:45.461Z",
+        "updated_at": "2024-02-25T15:07:02.931Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 83,
+    "fields": {
+        "user": 85,
+        "is_active": true,
+        "namalengkap": "Adnan Faris Naufal",
+        "namabergelar": "Adnan Faris Naufal, S.Fis., M.Bmd.",
+        "homebase_uniid": "lmbg1060",
+        "namahomebase": "Program Studi Fisioterapi",
+        "created_at": "2024-02-25T12:06:45.465Z",
+        "updated_at": "2024-02-25T15:07:02.936Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 84,
+    "fields": {
+        "user": 86,
+        "is_active": true,
+        "namalengkap": "Clara Yunita Prabawati",
+        "namabergelar": "Clara Yunita Prabawati, M.S",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:45.467Z",
+        "updated_at": "2024-02-25T15:07:02.938Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 85,
+    "fields": {
+        "user": 87,
+        "is_active": true,
+        "namalengkap": "Beti Kristinawati",
+        "namabergelar": "Beti Kristinawati, S.Kep, Ns, M.Kep, Sp.Kep.M.B",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:45.470Z",
+        "updated_at": "2024-02-25T15:07:02.940Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 86,
+    "fields": {
+        "user": 88,
+        "is_active": true,
+        "namalengkap": "Firmansyah",
+        "namabergelar": "Firmansyah, S.ST., M.Gz.",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.473Z",
+        "updated_at": "2024-02-25T15:07:02.943Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 87,
+    "fields": {
+        "user": 89,
+        "is_active": true,
+        "namalengkap": "Siti Nurokhmah",
+        "namabergelar": "Siti Nurokhmah, S.Gz., M.Sc.",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.478Z",
+        "updated_at": "2024-02-25T15:07:02.950Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 88,
+    "fields": {
+        "user": 90,
+        "is_active": true,
+        "namalengkap": "Suryo Saputra Perdana",
+        "namabergelar": "Suryo Saputra Perdana, M.Sc",
+        "homebase_uniid": "lmbg1060",
+        "namahomebase": "Program Studi Fisioterapi",
+        "created_at": "2024-02-25T12:06:45.480Z",
+        "updated_at": "2024-02-25T15:07:02.952Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 89,
+    "fields": {
+        "user": 91,
+        "is_active": true,
+        "namalengkap": "Zulia Setiyaningrum",
+        "namabergelar": "Zulia Setiyaningrum, S.Gz., M.Gizi.",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.482Z",
+        "updated_at": "2024-02-25T15:07:02.954Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 90,
+    "fields": {
+        "user": 92,
+        "is_active": true,
+        "namalengkap": "Titik Dwi Noviati",
+        "namabergelar": "Titik Dwi Noviati, S.Gz, M.Gz.",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.485Z",
+        "updated_at": "2024-02-25T15:07:02.957Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 91,
+    "fields": {
+        "user": 93,
+        "is_active": true,
+        "namalengkap": "Maskun Pudjianto",
+        "namabergelar": "Maskun Pudjianto, S.Pd., M.Kes.",
+        "homebase_uniid": "lmbg1060",
+        "namahomebase": "Program Studi Fisioterapi",
+        "created_at": "2024-02-25T12:06:45.487Z",
+        "updated_at": "2024-02-25T15:07:02.959Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 92,
+    "fields": {
+        "user": 94,
+        "is_active": true,
+        "namalengkap": "Wahyu Tri Sudaryanto",
+        "namabergelar": "Wahyu Tri Sudaryanto, S.Fis., M.K.M.",
+        "homebase_uniid": "lmbg1060",
+        "namahomebase": "Program Studi Fisioterapi",
+        "created_at": "2024-02-25T12:06:45.489Z",
+        "updated_at": "2024-02-25T15:07:02.962Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 93,
+    "fields": {
+        "user": 95,
+        "is_active": true,
+        "namalengkap": "Noor Aynie",
+        "namabergelar": "Noor Aynie, AMF, S.Mn",
+        "homebase_uniid": "lmbg1060",
+        "namahomebase": "Program Studi Fisioterapi",
+        "created_at": "2024-02-25T12:06:45.491Z",
+        "updated_at": "2024-02-25T15:07:02.964Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 94,
+    "fields": {
+        "user": 96,
+        "is_active": true,
+        "namalengkap": "Taufik Eko Susilo",
+        "namabergelar": "Taufik Eko Susilo, S.Fis., M.Sc.",
+        "homebase_uniid": "lmbg1060",
+        "namahomebase": "Program Studi Fisioterapi",
+        "created_at": "2024-02-25T12:06:45.493Z",
+        "updated_at": "2024-02-25T15:07:02.966Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 95,
+    "fields": {
+        "user": 97,
+        "is_active": true,
+        "namalengkap": "Nisya Ayu Rachmawati",
+        "namabergelar": "Nisya Ayu Rachmawati, S.Gz, M.Gz",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.496Z",
+        "updated_at": "2024-02-25T15:07:02.969Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 96,
+    "fields": {
+        "user": 98,
+        "is_active": true,
+        "namalengkap": "Sudrajah Warajati Kisnawaty",
+        "namabergelar": "Sudrajah Warajati Kisnawaty, S.Gz, M.Gz",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.498Z",
+        "updated_at": "2024-02-25T15:07:02.971Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 97,
+    "fields": {
+        "user": 99,
+        "is_active": true,
+        "namalengkap": "Rahayu Farida",
+        "namabergelar": "Rahayu Farida, S.Psi, M.Psi.",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.502Z",
+        "updated_at": "2024-02-25T15:07:02.975Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 98,
+    "fields": {
+        "user": 100,
+        "is_active": true,
+        "namalengkap": "dr.Rukma Astuti",
+        "namabergelar": "dr.Rukma Astuti, S,Ked., M.P.H",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.504Z",
+        "updated_at": "2024-02-25T15:07:02.978Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 99,
+    "fields": {
+        "user": 101,
+        "is_active": true,
+        "namalengkap": "Susi Dyah Puspowati",
+        "namabergelar": "Susi Dyah Puspowati, S.P, M.Si",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.507Z",
+        "updated_at": "2024-02-25T15:07:02.980Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 100,
+    "fields": {
+        "user": 102,
+        "is_active": true,
+        "namalengkap": "Isnawati Muslihah",
+        "namabergelar": "Isnawati Muslihah, S.Kom., M.Cs",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.509Z",
+        "updated_at": "2024-02-25T15:07:02.983Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 101,
+    "fields": {
+        "user": 103,
+        "is_active": true,
+        "namalengkap": "Chanif ",
+        "namabergelar": "Chanif , S.Kep., MNS",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:45.511Z",
+        "updated_at": "2024-02-25T15:07:02.985Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 102,
+    "fields": {
+        "user": 104,
+        "is_active": true,
+        "namalengkap": "Tiara Fatmarizka",
+        "namabergelar": "Tiara Fatmarizka, S.Fis, M.Sc.",
+        "homebase_uniid": "lmbg1060",
+        "namahomebase": "Program Studi Fisioterapi",
+        "created_at": "2024-02-25T12:06:45.538Z",
+        "updated_at": "2024-02-25T15:07:03.016Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 103,
+    "fields": {
+        "user": 105,
+        "is_active": true,
+        "namalengkap": "Noor Sadhono Kurniaji",
+        "namabergelar": "Noor Sadhono Kurniaji, Ftr,, M.Si.",
+        "homebase_uniid": "lmbg1060",
+        "namahomebase": "Program Studi Fisioterapi",
+        "created_at": "2024-02-25T12:06:45.540Z",
+        "updated_at": "2024-02-25T15:07:03.019Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 104,
+    "fields": {
+        "user": 106,
+        "is_active": true,
+        "namalengkap": "Arif Kurniawan",
+        "namabergelar": "Arif Kurniawan, Ftr,, M.Si.",
+        "homebase_uniid": "lmbg1060",
+        "namahomebase": "Program Studi Fisioterapi",
+        "created_at": "2024-02-25T12:06:45.542Z",
+        "updated_at": "2024-02-25T15:07:03.021Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 105,
+    "fields": {
+        "user": 107,
+        "is_active": true,
+        "namalengkap": "Dewi Listyorini",
+        "namabergelar": "Dewi Listyorini, S.Kep., Ns, M.Kep",
+        "homebase_uniid": "lmbg1032",
+        "namahomebase": "Program Studi Keperawatan",
+        "created_at": "2024-02-25T12:06:45.544Z",
+        "updated_at": "2024-02-25T15:07:03.024Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 106,
+    "fields": {
+        "user": 108,
+        "is_active": true,
+        "namalengkap": "Wahyu Tri Hastiningsih",
+        "namabergelar": "Wahyu Tri Hastiningsih, SPd, MM",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.546Z",
+        "updated_at": "2024-02-25T15:07:03.026Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 107,
+    "fields": {
+        "user": 109,
+        "is_active": true,
+        "namalengkap": "Arum Sari",
+        "namabergelar": "Arum Sari, S.Gz, M.Gz",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.548Z",
+        "updated_at": "2024-02-25T15:07:03.028Z"
+    }
+},
+{
+    "model": "pendampingan.karyawan",
+    "pk": 108,
+    "fields": {
+        "user": 110,
+        "is_active": true,
+        "namalengkap": "Atika Yahdiyani Ikhsani",
+        "namabergelar": "Atika Yahdiyani Ikhsani, S.TP., M.Sc.",
+        "homebase_uniid": "lmbg1062",
+        "namahomebase": "Program Studi Ilmu Gizi",
+        "created_at": "2024-02-25T12:06:45.550Z",
+        "updated_at": "2024-02-25T15:07:03.031Z"
+    }
+}
+]

@@ -1,0 +1,1682 @@
+[
+{
+    "model": "pendampingan.lembaga",
+    "pk": 1,
+    "fields": {
+        "uniid": "lmbg1002",
+        "nama": "Program Studi Teknik Elektro",
+        "namasingkat": "TE",
+        "superunit": "lmbg1044",
+        "namasuper": "Fakultas Teknik",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.213Z",
+        "updated_at": "2024-02-25T11:10:33.810Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 2,
+    "fields": {
+        "uniid": "lmbg1003",
+        "nama": "Fakultas Ekonomi dan Bisnis",
+        "namasingkat": "FEB",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 1,
+        "jenis": "Fakultas",
+        "created_at": "2024-02-25T10:02:57.220Z",
+        "updated_at": "2024-02-25T11:10:33.830Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 3,
+    "fields": {
+        "uniid": "lmbg1004",
+        "nama": "Lembaga Penjaminan Mutu",
+        "namasingkat": "LJM",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.221Z",
+        "updated_at": "2024-02-25T11:10:33.831Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 4,
+    "fields": {
+        "uniid": "lmbg1005",
+        "nama": "Program Studi Kesehatan Masyarakat",
+        "namasingkat": "",
+        "superunit": "lmbg1015",
+        "namasuper": "Fakultas Ilmu Kesehatan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.223Z",
+        "updated_at": "2024-02-25T11:10:33.833Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 5,
+    "fields": {
+        "uniid": "lmbg1006",
+        "nama": "Program Studi Ilmu Komunikasi",
+        "namasingkat": ".",
+        "superunit": "lmbg1050",
+        "namasuper": "Fakultas Komunikasi dan Informatika",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.225Z",
+        "updated_at": "2024-02-25T11:10:33.834Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 6,
+    "fields": {
+        "uniid": "lmbg1007",
+        "nama": "Program Studi Pendidikan Teknik Informatika",
+        "namasingkat": "PTI",
+        "superunit": "lmbg1026",
+        "namasuper": "Fakultas Keguruan dan Ilmu Pendidikan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.226Z",
+        "updated_at": "2024-02-25T11:10:33.836Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 7,
+    "fields": {
+        "uniid": "lmbg1008",
+        "nama": "Program Studi Profesi Ners",
+        "namasingkat": "",
+        "superunit": "lmbg1015",
+        "namasuper": "Fakultas Ilmu Kesehatan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.228Z",
+        "updated_at": "2024-02-25T11:10:33.838Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 8,
+    "fields": {
+        "uniid": "lmbg1009",
+        "nama": "Program Studi Psikologi",
+        "namasingkat": "",
+        "superunit": "lmbg1021",
+        "namasuper": "Fakultas Psikologi",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.230Z",
+        "updated_at": "2024-02-25T11:10:33.840Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 9,
+    "fields": {
+        "uniid": "lmbg1010",
+        "nama": "Program Studi Magister Psikologi Profesi",
+        "namasingkat": "",
+        "superunit": "lmbg1021",
+        "namasuper": "Fakultas Psikologi",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.232Z",
+        "updated_at": "2024-02-25T11:10:33.841Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 10,
+    "fields": {
+        "uniid": "lmbg1011",
+        "nama": "Program Studi Magister Teknik Sipil",
+        "namasingkat": "MTS",
+        "superunit": "lmbg1044",
+        "namasuper": "Fakultas Teknik",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.233Z",
+        "updated_at": "2024-02-25T11:10:33.842Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 11,
+    "fields": {
+        "uniid": "lmbg1012",
+        "nama": "Program Studi Magister Teknik Mesin",
+        "namasingkat": "MTM",
+        "superunit": "lmbg1044",
+        "namasuper": "Fakultas Teknik",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.236Z",
+        "updated_at": "2024-02-25T11:10:33.844Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 12,
+    "fields": {
+        "uniid": "lmbg1014",
+        "nama": "Program Studi Magister Pendidikan Agama Islam",
+        "namasingkat": "S2-PAI",
+        "superunit": "lmbg1073",
+        "namasuper": "Fakultas Agama Islam",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.237Z",
+        "updated_at": "2024-02-25T11:10:33.845Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 13,
+    "fields": {
+        "uniid": "lmbg1015",
+        "nama": "Fakultas Ilmu Kesehatan",
+        "namasingkat": "FIK",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 1,
+        "jenis": "Fakultas",
+        "created_at": "2024-02-25T10:02:57.238Z",
+        "updated_at": "2024-02-25T11:10:33.846Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 14,
+    "fields": {
+        "uniid": "lmbg1016",
+        "nama": "Biro Rektorat",
+        "namasingkat": "BR",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.240Z",
+        "updated_at": "2024-02-25T11:10:33.847Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 15,
+    "fields": {
+        "uniid": "lmbg1017",
+        "nama": "Program Studi Magister Hukum Ekonomi Syariah",
+        "namasingkat": "S2-SYAR",
+        "superunit": "lmbg1073",
+        "namasuper": "Fakultas Agama Islam",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.241Z",
+        "updated_at": "2024-02-25T11:10:33.848Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 16,
+    "fields": {
+        "uniid": "lmbg1018",
+        "nama": "Program Studi Profesi Apoteker",
+        "namasingkat": "",
+        "superunit": "lmbg1069",
+        "namasuper": "Fakultas Farmasi",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.242Z",
+        "updated_at": "2024-02-25T11:10:33.849Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 17,
+    "fields": {
+        "uniid": "lmbg1019",
+        "nama": "Program Studi Teknik Kimia",
+        "namasingkat": "TK",
+        "superunit": "lmbg1044",
+        "namasuper": "Fakultas Teknik",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.244Z",
+        "updated_at": "2024-02-25T11:10:33.850Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 18,
+    "fields": {
+        "uniid": "lmbg1020",
+        "nama": "Satuan Pengamanan",
+        "namasingkat": "SATPAM",
+        "superunit": "lmbg1038",
+        "namasuper": "Biro Aset Universitas",
+        "jenis_id": 4,
+        "jenis": "Subunit (di bawah Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.245Z",
+        "updated_at": "2024-02-25T11:10:33.852Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 19,
+    "fields": {
+        "uniid": "lmbg1021",
+        "nama": "Fakultas Psikologi",
+        "namasingkat": "Fapsi",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 1,
+        "jenis": "Fakultas",
+        "created_at": "2024-02-25T10:02:57.246Z",
+        "updated_at": "2024-02-25T11:10:33.854Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 20,
+    "fields": {
+        "uniid": "lmbg1022",
+        "nama": "Biro Pengembangan Sumber Daya Manusia ",
+        "namasingkat": "BPSDM",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.247Z",
+        "updated_at": "2024-02-25T11:10:33.855Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 21,
+    "fields": {
+        "uniid": "lmbg1023",
+        "nama": "Program Studi Teknik Industri",
+        "namasingkat": "TI",
+        "superunit": "lmbg1044",
+        "namasuper": "Fakultas Teknik",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.248Z",
+        "updated_at": "2024-02-25T11:10:33.856Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 22,
+    "fields": {
+        "uniid": "lmbg1024",
+        "nama": "Program Studi Pendidikan Dokter",
+        "namasingkat": "",
+        "superunit": "lmbg1071",
+        "namasuper": "Fakultas Kedokteran",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.250Z",
+        "updated_at": "2024-02-25T11:10:33.857Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 23,
+    "fields": {
+        "uniid": "lmbg1025",
+        "nama": "Program Studi Pendidikan Bahasa dan Sastra Indonesia",
+        "namasingkat": "PBSI",
+        "superunit": "lmbg1026",
+        "namasuper": "Fakultas Keguruan dan Ilmu Pendidikan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.252Z",
+        "updated_at": "2024-02-25T11:10:33.858Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 24,
+    "fields": {
+        "uniid": "lmbg1026",
+        "nama": "Fakultas Keguruan dan Ilmu Pendidikan",
+        "namasingkat": "FKIP",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 1,
+        "jenis": "Fakultas",
+        "created_at": "2024-02-25T10:02:57.253Z",
+        "updated_at": "2024-02-25T11:10:33.860Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 25,
+    "fields": {
+        "uniid": "lmbg1027",
+        "nama": "Lembaga Pengembangan Pondok Islam dan Kemuhammadiyahan",
+        "namasingkat": "LPPIK",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.254Z",
+        "updated_at": "2024-02-25T11:10:33.861Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 26,
+    "fields": {
+        "uniid": "lmbg1028",
+        "nama": "Lembaga Bahasa dan Ilmu Pengetahuan Umum",
+        "namasingkat": "LBIPU",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.255Z",
+        "updated_at": "2024-02-25T11:10:33.863Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 27,
+    "fields": {
+        "uniid": "lmbg1029",
+        "nama": "Fakultas Hukum",
+        "namasingkat": "FH",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 1,
+        "jenis": "Fakultas",
+        "created_at": "2024-02-25T10:02:57.257Z",
+        "updated_at": "2024-02-25T11:10:33.864Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 28,
+    "fields": {
+        "uniid": "lmbg1030",
+        "nama": "Biro Teknologi Informasi",
+        "namasingkat": "BiroTI",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.258Z",
+        "updated_at": "2024-02-25T11:10:33.866Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 29,
+    "fields": {
+        "uniid": "lmbg1031",
+        "nama": "Program Studi Arsitektur",
+        "namasingkat": "",
+        "superunit": "lmbg1044",
+        "namasuper": "Fakultas Teknik",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.260Z",
+        "updated_at": "2024-02-25T11:10:33.867Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 30,
+    "fields": {
+        "uniid": "lmbg1032",
+        "nama": "Program Studi Keperawatan",
+        "namasingkat": "Kep",
+        "superunit": "lmbg1015",
+        "namasuper": "Fakultas Ilmu Kesehatan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.262Z",
+        "updated_at": "2024-02-25T11:10:33.868Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 31,
+    "fields": {
+        "uniid": "lmbg1033",
+        "nama": "Program Studi Teknik Sipil",
+        "namasingkat": "TS",
+        "superunit": "lmbg1044",
+        "namasuper": "Fakultas Teknik",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.264Z",
+        "updated_at": "2024-02-25T11:10:33.869Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 32,
+    "fields": {
+        "uniid": "lmbg1034",
+        "nama": "Program Studi Akuntansi",
+        "namasingkat": "AKT",
+        "superunit": "lmbg1003",
+        "namasuper": "Fakultas Ekonomi dan Bisnis",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.265Z",
+        "updated_at": "2024-02-25T11:10:33.871Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 33,
+    "fields": {
+        "uniid": "lmbg1035",
+        "nama": "Perpustakaan & Pusat Layanan Digital",
+        "namasingkat": "LIB",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.266Z",
+        "updated_at": "2024-02-25T11:10:33.872Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 34,
+    "fields": {
+        "uniid": "lmbg1036",
+        "nama": "Fakultas Kedokteran Gigi",
+        "namasingkat": "FKG",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 1,
+        "jenis": "Fakultas",
+        "created_at": "2024-02-25T10:02:57.268Z",
+        "updated_at": "2024-02-25T11:10:33.873Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 35,
+    "fields": {
+        "uniid": "lmbg1037",
+        "nama": "Program Studi Informatika",
+        "namasingkat": "IF",
+        "superunit": "lmbg1050",
+        "namasuper": "Fakultas Komunikasi dan Informatika",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.269Z",
+        "updated_at": "2024-02-25T11:10:33.874Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 36,
+    "fields": {
+        "uniid": "lmbg1038",
+        "nama": "Biro Aset Universitas",
+        "namasingkat": "BAU",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.270Z",
+        "updated_at": "2024-02-25T11:10:33.875Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 37,
+    "fields": {
+        "uniid": "lmbg1040",
+        "nama": "Program Studi Farmasi",
+        "namasingkat": "",
+        "superunit": "lmbg1069",
+        "namasuper": "Fakultas Farmasi",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.272Z",
+        "updated_at": "2024-02-25T11:10:33.877Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 38,
+    "fields": {
+        "uniid": "lmbg1041",
+        "nama": "Program Studi Pendidikan Akuntansi",
+        "namasingkat": "PAkt",
+        "superunit": "lmbg1026",
+        "namasuper": "Fakultas Keguruan dan Ilmu Pendidikan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.273Z",
+        "updated_at": "2024-02-25T11:10:33.878Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 39,
+    "fields": {
+        "uniid": "lmbg1042",
+        "nama": "Program Studi Magister Teknik Kimia",
+        "namasingkat": "MTK",
+        "superunit": "lmbg1044",
+        "namasuper": "Fakultas Teknik",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.274Z",
+        "updated_at": "2024-02-25T11:10:33.879Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 40,
+    "fields": {
+        "uniid": "lmbg1043",
+        "nama": "Program Studi Pendidikan Matematika",
+        "namasingkat": "PMAT",
+        "superunit": "lmbg1026",
+        "namasuper": "Fakultas Keguruan dan Ilmu Pendidikan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.275Z",
+        "updated_at": "2024-02-25T11:10:33.880Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 41,
+    "fields": {
+        "uniid": "lmbg1044",
+        "nama": "Fakultas Teknik",
+        "namasingkat": "FT",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 1,
+        "jenis": "Fakultas",
+        "created_at": "2024-02-25T10:02:57.276Z",
+        "updated_at": "2024-02-25T11:10:33.882Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 42,
+    "fields": {
+        "uniid": "lmbg1045",
+        "nama": "Program Studi Kedokteran Gigi",
+        "namasingkat": "",
+        "superunit": "lmbg1036",
+        "namasuper": "Fakultas Kedokteran Gigi",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.277Z",
+        "updated_at": "2024-02-25T11:10:33.883Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 43,
+    "fields": {
+        "uniid": "lmbg1046",
+        "nama": "Unit Parkir",
+        "namasingkat": "PARKIR",
+        "superunit": "lmbg1038",
+        "namasuper": "Biro Aset Universitas",
+        "jenis_id": 4,
+        "jenis": "Subunit (di bawah Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.278Z",
+        "updated_at": "2024-02-25T11:10:33.884Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 44,
+    "fields": {
+        "uniid": "lmbg1047",
+        "nama": "Program Studi Pendidikan Guru Sekolah Dasar",
+        "namasingkat": "PGSD",
+        "superunit": "lmbg1026",
+        "namasuper": "Fakultas Keguruan dan Ilmu Pendidikan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.280Z",
+        "updated_at": "2024-02-25T11:10:33.885Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 45,
+    "fields": {
+        "uniid": "lmbg1048",
+        "nama": "Muhammadiyah University Press",
+        "namasingkat": "MUP",
+        "superunit": "lmbg1079",
+        "namasuper": "Lembaga Pengembangan Publikasi Ilmiah ",
+        "jenis_id": 4,
+        "jenis": "Subunit (di bawah Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.281Z",
+        "updated_at": "2024-02-25T11:10:33.886Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 46,
+    "fields": {
+        "uniid": "lmbg1050",
+        "nama": "Fakultas Komunikasi dan Informatika",
+        "namasingkat": "FKI",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 1,
+        "jenis": "Fakultas",
+        "created_at": "2024-02-25T10:02:57.282Z",
+        "updated_at": "2024-02-25T11:10:33.887Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 47,
+    "fields": {
+        "uniid": "lmbg1051",
+        "nama": "Program Studi Geografi",
+        "namasingkat": "",
+        "superunit": "lmbg1088",
+        "namasuper": "Fakultas Geografi",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.283Z",
+        "updated_at": "2024-02-25T11:10:33.888Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 48,
+    "fields": {
+        "uniid": "lmbg1052",
+        "nama": "Program Studi Hukum Ekonomi Syariah",
+        "namasingkat": "HES",
+        "superunit": "lmbg1073",
+        "namasuper": "Fakultas Agama Islam",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.284Z",
+        "updated_at": "2024-02-25T11:10:33.889Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 49,
+    "fields": {
+        "uniid": "lmbg1053",
+        "nama": "Program Studi Magister Akuntansi",
+        "namasingkat": "S2-Akt",
+        "superunit": "lmbg1003",
+        "namasuper": "Fakultas Ekonomi dan Bisnis",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.286Z",
+        "updated_at": "2024-02-25T11:10:33.890Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 50,
+    "fields": {
+        "uniid": "lmbg1054",
+        "nama": "Program Studi Manajemen",
+        "namasingkat": "",
+        "superunit": "lmbg1003",
+        "namasuper": "Fakultas Ekonomi dan Bisnis",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.287Z",
+        "updated_at": "2024-02-25T11:10:33.892Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 51,
+    "fields": {
+        "uniid": "lmbg1055",
+        "nama": "Program Studi Teknik Mesin",
+        "namasingkat": "TM",
+        "superunit": "lmbg1044",
+        "namasuper": "Fakultas Teknik",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.288Z",
+        "updated_at": "2024-02-25T11:10:33.893Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 52,
+    "fields": {
+        "uniid": "lmbg1056",
+        "nama": "Program Studi Ekonomi Pembangunan",
+        "namasingkat": "PS Eko.Pem",
+        "superunit": "lmbg1003",
+        "namasuper": "Fakultas Ekonomi dan Bisnis",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.289Z",
+        "updated_at": "2024-02-25T11:10:33.894Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 53,
+    "fields": {
+        "uniid": "lmbg1057",
+        "nama": "Program Studi Pendidikan Pancasila dan Kewarganegaraan",
+        "namasingkat": "PPKN",
+        "superunit": "lmbg1026",
+        "namasuper": "Fakultas Keguruan dan Ilmu Pendidikan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.291Z",
+        "updated_at": "2024-02-25T11:10:33.895Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 54,
+    "fields": {
+        "uniid": "lmbg1058",
+        "nama": "Program Studi Magister Ilmu Hukum",
+        "namasingkat": "",
+        "superunit": "lmbg1029",
+        "namasuper": "Fakultas Hukum",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.292Z",
+        "updated_at": "2024-02-25T11:10:33.896Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 55,
+    "fields": {
+        "uniid": "lmbg1059",
+        "nama": "Program Studi Ilmu Hukum",
+        "namasingkat": "",
+        "superunit": "lmbg1029",
+        "namasuper": "Fakultas Hukum",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.294Z",
+        "updated_at": "2024-02-25T11:10:33.897Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 56,
+    "fields": {
+        "uniid": "lmbg1060",
+        "nama": "Program Studi Fisioterapi",
+        "namasingkat": "",
+        "superunit": "lmbg1015",
+        "namasuper": "Fakultas Ilmu Kesehatan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.295Z",
+        "updated_at": "2024-02-25T11:10:33.899Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 57,
+    "fields": {
+        "uniid": "lmbg1061",
+        "nama": "Program Studi Doktor Ilmu Hukum",
+        "namasingkat": "",
+        "superunit": "lmbg1029",
+        "namasuper": "Fakultas Hukum",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.296Z",
+        "updated_at": "2024-02-25T11:10:33.900Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 58,
+    "fields": {
+        "uniid": "lmbg1062",
+        "nama": "Program Studi Ilmu Gizi",
+        "namasingkat": "",
+        "superunit": "lmbg1015",
+        "namasuper": "Fakultas Ilmu Kesehatan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.297Z",
+        "updated_at": "2024-02-25T11:10:33.901Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 59,
+    "fields": {
+        "uniid": "lmbg1064",
+        "nama": "Program Studi Profesi Dokter Gigi",
+        "namasingkat": "",
+        "superunit": "lmbg1036",
+        "namasuper": "Fakultas Kedokteran Gigi",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.298Z",
+        "updated_at": "2024-02-25T11:10:33.903Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 60,
+    "fields": {
+        "uniid": "lmbg1065",
+        "nama": "Program Studi Profesi Dokter",
+        "namasingkat": "",
+        "superunit": "lmbg1071",
+        "namasuper": "Fakultas Kedokteran",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.300Z",
+        "updated_at": "2024-02-25T11:10:33.904Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 61,
+    "fields": {
+        "uniid": "lmbg1066",
+        "nama": "Program Studi Magister Pendidikan Bahasa Indonesia",
+        "namasingkat": "",
+        "superunit": "lmbg1026",
+        "namasuper": "Fakultas Keguruan dan Ilmu Pendidikan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.301Z",
+        "updated_at": "2024-02-25T11:10:33.905Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 62,
+    "fields": {
+        "uniid": "lmbg1067",
+        "nama": "Program Studi Magister Administrasi Pendidikan",
+        "namasingkat": "",
+        "superunit": "lmbg1026",
+        "namasuper": "Fakultas Keguruan dan Ilmu Pendidikan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.302Z",
+        "updated_at": "2024-02-25T11:10:33.906Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 63,
+    "fields": {
+        "uniid": "lmbg1068",
+        "nama": "Program Studi Pendidikan Biologi",
+        "namasingkat": "",
+        "superunit": "lmbg1026",
+        "namasuper": "Fakultas Keguruan dan Ilmu Pendidikan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.303Z",
+        "updated_at": "2024-02-25T11:10:33.908Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 64,
+    "fields": {
+        "uniid": "lmbg1069",
+        "nama": "Fakultas Farmasi",
+        "namasingkat": "FF",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 1,
+        "jenis": "Fakultas",
+        "created_at": "2024-02-25T10:02:57.304Z",
+        "updated_at": "2024-02-25T11:10:33.909Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 65,
+    "fields": {
+        "uniid": "lmbg1070",
+        "nama": "Muhammadiyah Medical Centre",
+        "namasingkat": "MMC",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.305Z",
+        "updated_at": "2024-02-25T11:10:33.910Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 66,
+    "fields": {
+        "uniid": "lmbg1071",
+        "nama": "Fakultas Kedokteran",
+        "namasingkat": "FK",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 1,
+        "jenis": "Fakultas",
+        "created_at": "2024-02-25T10:02:57.307Z",
+        "updated_at": "2024-02-25T11:10:33.912Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 67,
+    "fields": {
+        "uniid": "lmbg1072",
+        "nama": "Badan Pembina Harian",
+        "namasingkat": "BPH",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 5,
+        "jenis": "Lainnya",
+        "created_at": "2024-02-25T10:02:57.308Z",
+        "updated_at": "2024-02-25T11:10:33.913Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 68,
+    "fields": {
+        "uniid": "lmbg1073",
+        "nama": "Fakultas Agama Islam",
+        "namasingkat": "FAI",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 1,
+        "jenis": "Fakultas",
+        "created_at": "2024-02-25T10:02:57.309Z",
+        "updated_at": "2024-02-25T11:10:33.917Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 69,
+    "fields": {
+        "uniid": "lmbg1074",
+        "nama": "Biro Pengembangan Usaha",
+        "namasingkat": "Biro PU",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.310Z",
+        "updated_at": "2024-02-25T11:10:33.919Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 70,
+    "fields": {
+        "uniid": "lmbg1075",
+        "nama": "Program Studi Ilmu Al Quran dan Tafsir",
+        "namasingkat": "IQT",
+        "superunit": "lmbg1073",
+        "namasuper": "Fakultas Agama Islam",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.311Z",
+        "updated_at": "2024-02-25T11:10:33.921Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 71,
+    "fields": {
+        "uniid": "lmbg1076",
+        "nama": "Biro Administrasi Akademik",
+        "namasingkat": "BAA",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.312Z",
+        "updated_at": "2024-02-25T11:10:33.923Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 72,
+    "fields": {
+        "uniid": "lmbg1078",
+        "nama": "Sekolah Vokasi",
+        "namasingkat": "VOKASI",
+        "superunit": "lmbg1044",
+        "namasuper": "Fakultas Teknik",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.314Z",
+        "updated_at": "2024-02-25T11:10:33.925Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 73,
+    "fields": {
+        "uniid": "lmbg1079",
+        "nama": "Lembaga Pengembangan Publikasi Ilmiah ",
+        "namasingkat": "LPPI",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.317Z",
+        "updated_at": "2024-02-25T11:10:33.926Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 74,
+    "fields": {
+        "uniid": "lmbg1080",
+        "nama": "Biro Kemahasiswaan",
+        "namasingkat": "BK",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.318Z",
+        "updated_at": "2024-02-25T11:10:33.927Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 75,
+    "fields": {
+        "uniid": "lmbg1081",
+        "nama": "Dana Pensiun Syariah",
+        "namasingkat": "DPS",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 5,
+        "jenis": "Lainnya",
+        "created_at": "2024-02-25T10:02:57.320Z",
+        "updated_at": "2024-02-25T11:10:33.929Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 76,
+    "fields": {
+        "uniid": "lmbg1082",
+        "nama": "Lembaga Pengabdian Masyarakat & Pengembangan Persyarikatan",
+        "namasingkat": "LPMPP",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.322Z",
+        "updated_at": "2024-02-25T11:10:33.930Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 77,
+    "fields": {
+        "uniid": "lmbg1083",
+        "nama": "Program Studi Pendidikan Agama Islam",
+        "namasingkat": "S1-PAI",
+        "superunit": "lmbg1073",
+        "namasuper": "Fakultas Agama Islam",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.324Z",
+        "updated_at": "2024-02-25T11:10:33.931Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 78,
+    "fields": {
+        "uniid": "lmbg1084",
+        "nama": "Program Studi Magister Manajemen",
+        "namasingkat": "S2 MM",
+        "superunit": "lmbg1003",
+        "namasuper": "Fakultas Ekonomi dan Bisnis",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.325Z",
+        "updated_at": "2024-02-25T11:10:33.932Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 79,
+    "fields": {
+        "uniid": "lmbg1085",
+        "nama": "Biro Keuangan",
+        "namasingkat": "BKeu",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.326Z",
+        "updated_at": "2024-02-25T11:10:33.934Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 80,
+    "fields": {
+        "uniid": "lmbg1086",
+        "nama": "Program Studi Magister Farmasi",
+        "namasingkat": "",
+        "superunit": "lmbg1069",
+        "namasuper": "Fakultas Farmasi",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.327Z",
+        "updated_at": "2024-02-25T11:10:33.935Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 81,
+    "fields": {
+        "uniid": "lmbg1087",
+        "nama": "Program Studi Pendidikan Geografi",
+        "namasingkat": "",
+        "superunit": "lmbg1026",
+        "namasuper": "Fakultas Keguruan dan Ilmu Pendidikan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.328Z",
+        "updated_at": "2024-02-25T11:10:33.936Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 82,
+    "fields": {
+        "uniid": "lmbg1088",
+        "nama": "Fakultas Geografi",
+        "namasingkat": "FG",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 1,
+        "jenis": "Fakultas",
+        "created_at": "2024-02-25T10:02:57.329Z",
+        "updated_at": "2024-02-25T11:10:33.937Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 83,
+    "fields": {
+        "uniid": "lmbg1089",
+        "nama": "Sekolah Pasca Sarjana",
+        "namasingkat": "PASCA",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 1,
+        "jenis": "Fakultas",
+        "created_at": "2024-02-25T10:02:57.331Z",
+        "updated_at": "2024-02-25T11:10:33.938Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 84,
+    "fields": {
+        "uniid": "lmbg1090",
+        "nama": "Program Studi Pendidikan Guru Pendidikan Anak Usia Dini",
+        "namasingkat": "PGPAUD",
+        "superunit": "lmbg1026",
+        "namasuper": "Fakultas Keguruan dan Ilmu Pendidikan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.332Z",
+        "updated_at": "2024-02-25T11:10:33.939Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 85,
+    "fields": {
+        "uniid": "lmbg1091",
+        "nama": "Program Studi Magister Psikologi",
+        "namasingkat": "",
+        "superunit": "lmbg1021",
+        "namasuper": "Fakultas Psikologi",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.333Z",
+        "updated_at": "2024-02-25T11:10:33.940Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 86,
+    "fields": {
+        "uniid": "lmbg1092",
+        "nama": "Biro Auditor Internal ",
+        "namasingkat": "BAI",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.335Z",
+        "updated_at": "2024-02-25T11:10:33.942Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 87,
+    "fields": {
+        "uniid": "lmbg1093",
+        "nama": "Biro Kerjasama dan Urusan Internasional",
+        "namasingkat": "BKUI",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.336Z",
+        "updated_at": "2024-02-25T11:10:33.943Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 88,
+    "fields": {
+        "uniid": "lmbg1095",
+        "nama": "Program Studi Pendidikan Bahasa Inggris",
+        "namasingkat": "",
+        "superunit": "lmbg1026",
+        "namasuper": "Fakultas Keguruan dan Ilmu Pendidikan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.337Z",
+        "updated_at": "2024-02-25T11:10:33.944Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 89,
+    "fields": {
+        "uniid": "lmbg1099",
+        "nama": "Program Studi Profesi Insinyur",
+        "namasingkat": "Ir",
+        "superunit": "lmbg1044",
+        "namasuper": "Fakultas Teknik",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.338Z",
+        "updated_at": "2024-02-25T11:10:33.945Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 90,
+    "fields": {
+        "uniid": "lmbg1100",
+        "nama": "Program Studi Pendidikan Olah Raga",
+        "namasingkat": "POR",
+        "superunit": "lmbg1026",
+        "namasuper": "Fakultas Keguruan dan Ilmu Pendidikan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.339Z",
+        "updated_at": "2024-02-25T11:10:33.947Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 91,
+    "fields": {
+        "uniid": "lmbg1103",
+        "nama": "Program Studi Profesi Fisioterapi",
+        "namasingkat": "",
+        "superunit": "lmbg1015",
+        "namasuper": "Fakultas Ilmu Kesehatan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.341Z",
+        "updated_at": "2024-02-25T11:10:33.949Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 92,
+    "fields": {
+        "uniid": "lmbg1105",
+        "nama": "Pondok Hajah Nuriyah Sobron",
+        "namasingkat": "PHNS",
+        "superunit": "lmbg1027",
+        "namasuper": "Lembaga Pengembangan Pondok Islam dan Kemuhammadiyahan",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.342Z",
+        "updated_at": "2024-02-25T11:10:33.950Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 93,
+    "fields": {
+        "uniid": "lmbg1106",
+        "nama": "Pondok Internasional KH. Mas Mansur",
+        "namasingkat": "KHMM",
+        "superunit": "lmbg1027",
+        "namasuper": "Lembaga Pengembangan Pondok Islam dan Kemuhammadiyahan",
+        "jenis_id": 4,
+        "jenis": "Subunit (di bawah Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.343Z",
+        "updated_at": "2024-02-25T11:10:33.951Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 94,
+    "fields": {
+        "uniid": "lmbg1108",
+        "nama": "Program Studi Doktor Pendidikan Agama Islam",
+        "namasingkat": "S3-PAI",
+        "superunit": "lmbg1073",
+        "namasuper": "Fakultas Agama Islam",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.345Z",
+        "updated_at": "2024-02-25T11:10:33.952Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 95,
+    "fields": {
+        "uniid": "lmbg1109",
+        "nama": "Program Studi Magister Pendidikan Dasar",
+        "namasingkat": "",
+        "superunit": "lmbg1026",
+        "namasuper": "Fakultas Keguruan dan Ilmu Pendidikan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.346Z",
+        "updated_at": "2024-02-25T11:10:33.953Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 96,
+    "fields": {
+        "uniid": "lmbg1110",
+        "nama": "Program Studi Magister Pendidikan Bahasa Inggris",
+        "namasingkat": "MPBI",
+        "superunit": "lmbg1026",
+        "namasuper": "Fakultas Keguruan dan Ilmu Pendidikan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.348Z",
+        "updated_at": "2024-02-25T11:10:33.955Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 97,
+    "fields": {
+        "uniid": "lmbg1112",
+        "nama": "Program Studi Pendidikan Profesi Guru",
+        "namasingkat": "PPG",
+        "superunit": "lmbg1026",
+        "namasuper": "Fakultas Keguruan dan Ilmu Pendidikan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.349Z",
+        "updated_at": "2024-02-25T11:10:33.956Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 98,
+    "fields": {
+        "uniid": "lmbg1114",
+        "nama": "Program Studi Doktor Pendidikan",
+        "namasingkat": "S3-Pend",
+        "superunit": "lmbg1026",
+        "namasuper": "Fakultas Keguruan dan Ilmu Pendidikan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.351Z",
+        "updated_at": "2024-02-25T11:10:33.957Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 99,
+    "fields": {
+        "uniid": "lmbg1116",
+        "nama": "Lembaga Riset dan Inovasi",
+        "namasingkat": "LRI",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.352Z",
+        "updated_at": "2024-02-25T11:10:33.958Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 100,
+    "fields": {
+        "uniid": "lmbg1117",
+        "nama": "Biro Inovasi Pembelajaran",
+        "namasingkat": "BIP",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.353Z",
+        "updated_at": "2024-02-25T11:10:33.959Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 101,
+    "fields": {
+        "uniid": "lmbg1118",
+        "nama": "Badan Pengembangan Usaha",
+        "namasingkat": "BPU",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 5,
+        "jenis": "Lainnya",
+        "created_at": "2024-02-25T10:02:57.354Z",
+        "updated_at": "2024-02-25T11:10:33.961Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 102,
+    "fields": {
+        "uniid": "lmbg1119",
+        "nama": "Biro Perencanaan dan Pengembangan",
+        "namasingkat": "Biro PP",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.355Z",
+        "updated_at": "2024-02-25T11:10:33.962Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 103,
+    "fields": {
+        "uniid": "lmbg1120",
+        "nama": "Badan Perencanaan dan Pengembangan",
+        "namasingkat": "BPP-UMS",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 5,
+        "jenis": "Lainnya",
+        "created_at": "2024-02-25T10:02:57.357Z",
+        "updated_at": "2024-02-25T11:10:33.963Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 104,
+    "fields": {
+        "uniid": "lmbg1121",
+        "nama": "Program Studi Magister Informatika",
+        "namasingkat": "",
+        "superunit": "lmbg1050",
+        "namasuper": "Fakultas Komunikasi dan Informatika",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.358Z",
+        "updated_at": "2024-02-25T11:10:33.964Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 105,
+    "fields": {
+        "uniid": "lmbg1122",
+        "nama": "Program Studi Doktor Farmasi",
+        "namasingkat": "",
+        "superunit": "lmbg1069",
+        "namasuper": "Fakultas Farmasi",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.359Z",
+        "updated_at": "2024-02-25T11:10:33.965Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 106,
+    "fields": {
+        "uniid": "lmbg1123",
+        "nama": "Program Studi Magister Pendidikan Matematika",
+        "namasingkat": "",
+        "superunit": "lmbg1026",
+        "namasuper": "Fakultas Keguruan dan Ilmu Pendidikan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.363Z",
+        "updated_at": "2024-02-25T11:10:33.966Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 107,
+    "fields": {
+        "uniid": "lmbg1124",
+        "nama": "Program Studi Doktor Psikologi",
+        "namasingkat": "",
+        "superunit": "lmbg1021",
+        "namasuper": "Fakultas Psikologi",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.364Z",
+        "updated_at": "2024-02-25T11:10:33.967Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 108,
+    "fields": {
+        "uniid": "lmbg1125",
+        "nama": "Program Studi Keperawatan Program Magister",
+        "namasingkat": null,
+        "superunit": "lmbg1015",
+        "namasuper": "Fakultas Ilmu Kesehatan",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.366Z",
+        "updated_at": "2024-02-25T11:10:33.968Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 109,
+    "fields": {
+        "uniid": "lmbg1126",
+        "nama": "Program Studi Administrasi Rumah Sakit Program Magister",
+        "namasingkat": "",
+        "superunit": "lmbg1071",
+        "namasuper": "Fakultas Kedokteran",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.367Z",
+        "updated_at": "2024-02-25T11:10:33.969Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 110,
+    "fields": {
+        "uniid": "lmbg1127",
+        "nama": "Biro Humas dan Pemeringkatan",
+        "namasingkat": "BHP",
+        "superunit": "lmbg1001",
+        "namasuper": "Universitas Muhammadiyah Surakarta",
+        "jenis_id": 3,
+        "jenis": "Unit (Biro/Lembaga)",
+        "created_at": "2024-02-25T10:02:57.369Z",
+        "updated_at": "2024-02-25T11:10:33.971Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 111,
+    "fields": {
+        "uniid": "lmbg1128",
+        "nama": "Program Studi Doktor Teknik Mesin",
+        "namasingkat": "",
+        "superunit": "lmbg1044",
+        "namasuper": "Fakultas Teknik",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.370Z",
+        "updated_at": "2024-02-25T11:10:33.972Z"
+    }
+},
+{
+    "model": "pendampingan.lembaga",
+    "pk": 112,
+    "fields": {
+        "uniid": "lmbg1129",
+        "nama": "Program Studi Pendidikan Profesi Psikologi Program Profesi",
+        "namasingkat": "",
+        "superunit": "lmbg1021",
+        "namasuper": "Fakultas Psikologi",
+        "jenis_id": 2,
+        "jenis": "Program Studi",
+        "created_at": "2024-02-25T10:02:57.371Z",
+        "updated_at": "2024-02-25T11:10:33.973Z"
+    }
+}
+]
