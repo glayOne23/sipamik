@@ -49,6 +49,12 @@
                     <i class="fa fa-users"></i> <span class="nav-text">Karyawan</span>
                 </a>                
             </li>                        
+            <!-- Kurikulum -->
+            <li class="{% if sidebar == 'admin.kurikulum' %} mm-active {% endif %}">
+                <a href="{% url 'pendampingan:admin_kurikulum_table' %}">
+                    <i class="fa fa-book"></i> <span class="nav-text">Kurikulum & Mata Kuliah</span>
+                </a>                
+            </li>                                    
 
 
         </ul>

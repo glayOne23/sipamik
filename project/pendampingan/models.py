@@ -37,4 +37,35 @@ class Karyawan(models.Model):
         ordering    = ['id']
 
     def __str__(self):        
+        return self.user
+    
+
+class Kurikulum(models.Model):        
+    tahun = models.IntegerField(unique=True)
+    is_active = models.BooleanField(default=False)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        ordering    = ['id']
+
+    def __str__(self):        
+        return self.nama
+    
+
+class MataKuliah(models.Model):
+    kurikulum = models.ForeignKey(Kurikulum, on_delete=models.CASCADE)    
+    kode = models.CharField(max_length=255)
+    nama = models.CharField(max_length=255)
+    jumlah_sks = models.IntegerField(blank=True, null=True)
+    semester = models.IntegerField(blank=True, null=True)
+    deskripsi = models.TextField(blank=True, null=True)
+    uniid_pengampu = models.CharField(max_length=255, blank=True, null=True)    
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        ordering    = ['id']
+
+    def __str__(self):        
         return self.nama    

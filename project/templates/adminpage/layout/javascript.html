@@ -41,6 +41,9 @@
 
 <script src="{% static 'focus2/vendor/sweetalert2/dist/sweetalert2.all.js' %}"></script>
 
+<!-- Summernote -->
+<script src="{% static 'focus2/vendor/summernote/js/summernote.min.js' %}"></script>
+
 <script>
     function notif(status, title, message, data=[]){
         let redirect;
@@ -70,7 +73,10 @@
                 Swal.fire({
                     icon: status,
                     title: title,
-                    html: message
+                    html: message,
+                    showConfirmButton: false,
+                    position: "top-end",
+                    timer: 1500                    
                 })
             } else {
                 Swal.fire({
@@ -94,4 +100,40 @@
     {% for msg in messages %}
         notif('{{ msg.level_tag }}', '{{ msg.level_tag }}', '{{ msg|safe }}', JSON.parse('{{ msg.extra_tags|JsonParseIsEmpty|safe }}'))
     {% endfor %}
+
+
+    function confirmDelete(form_id) {
+
+        Swal.fire({
+            title: "Apakah kamu yakin ingin menghapus?",
+            text: "Data tidak bisa dikembalikan jika sudah dihapus",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Iya, hapus ini!"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                document.getElementById(form_id).submit(); // Submit the form
+            }
+        });
+        
+    }
+
+
+    jQuery(document).ready(function() {
+        $(".summernote").summernote({
+            height: 190,
+            minHeight: null,
+            maxHeight: null,
+            focus: !1
+        }), $(".inline-editor").summernote({
+            airMode: !0
+        })
+    }), window.edit = function() {
+        $(".click2edit").summernote()
+    }, window.save = function() {
+        $(".click2edit").summernote("destroy")
+    };    
+
 </script>
